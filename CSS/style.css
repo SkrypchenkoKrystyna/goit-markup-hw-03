@@ -1,0 +1,239 @@
+/* Общее для двух страниц */
+:root {
+  --main-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --back-color: #2f303a;
+  --background-color: #f5f4fa;
+  --main-font: "Roboto", sans-serif;
+  --accent-font: "Raleway", sans-serif;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: var(--main-font);
+  color: var(--main-text-color);
+}
+
+ul {
+  list-style: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+/* Header-styles */
+.header {
+  color: var(--main-text-color);
+}
+/* logotype */
+.logo {
+  font-family: var(--accent-font);
+  font-size: 26px;
+  letter-spacing: 0.03em;
+}
+.logo-web {
+  color: var(--accent-color);
+}
+.logo-studio {
+  color: black;
+}
+/* navigation */
+
+.nav-list a:hover,
+.nav-list a:focus {
+  color: var(--accent-color);
+}
+
+.active-link {
+  font-family: var(--main-font);
+  font-weight: 500;
+  line-height: 1.143px;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+.link-active {
+  color: var(--accent-color);
+}
+.contact-link {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143px;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+.contact-list {
+  color: var(--main-text-color);
+}
+.contact-list a:hover {
+  color: var(--accent-color);
+}
+/* Header-styles */
+
+/* Main-styles */
+/* Hero */
+.hero-section {
+  background-color: var(--back-color);
+  color: var(--white-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.main-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+.main-button:hover,
+.main-button:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  cursor: pointer;
+}
+
+/* Hero */
+/* About-us */
+.good-title {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-text-color);
+}
+.about-good-title {
+  font-family: var(--title-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+/* About-us */
+
+/* What-are-we-doing */
+.title {
+  font-size: 36px;
+  line-height: 1.167;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+/* What-are-we-doing */
+
+/* Our-team */
+.team-section {
+  background-color: var(--background-color);
+}
+.section-title {
+  font-size: 36px;
+  line-height: 1.167;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+.member-of-team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+.position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.187;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+/* Our-team */
+
+/* contacts-footer */
+
+.footer {
+  background-color: var(--back-color);
+}
+.logo-web-footer {
+  color: var(--accent-color);
+}
+.logo-studio-footer {
+  color: var(--white-color);
+}
+.contact-list-footer {
+  color: var(--main-text-color);
+}
+.adress-nav {
+  color: var(--white-color);
+}
+.conact-link-fooer {
+  color: rgba(255, 255, 255, 0.6);
+}
+/* contacts-footer */
+
+/* PORTFOLIO-STILES */
+
+/* Header-stiles-portfolio-copy-from-main*/
+
+/* Button-list */
+
+.button-list-first {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+.button-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+.button-list-first:hover,
+.button-list-first:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  cursor: pointer;
+}
+.button-list:hover,
+.button-list:focus {
+  background-color: var(--background-color);
+  color: var(--main-text-color);
+  cursor: pointer;
+}
+/* Button-list */
+
+/* Card-list */
+.card-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color);
+}
+.explanation-about {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+/* Card-lit */

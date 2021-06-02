@@ -115,6 +115,7 @@ a {
   color: var(--accent-color);
 } */
 .contact-link {
+  margin-left: 50px;
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
@@ -368,8 +369,18 @@ a {
 /* Header-stiles-portfolio-copy-from-main*/
 
 /* Button-list */
+/* .button-position {
+  display: inline-block;
+  display: flex;
+} */
 
+.button-position {
+  display: flex;
+  justify-content: center;
+}
 .button-list-first {
+  margin-right: 8px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;

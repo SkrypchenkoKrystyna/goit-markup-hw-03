@@ -143,15 +143,14 @@ a {
   background-color: var(--back-color);
   color: var(--white-color);
   height: 600px;
-}
 
-.hero-section .conteiner {
   padding-top: 200px;
   padding-bottom: 200px;
-  padding-left: 237px;
   text-align: center;
 }
+
 .hero-title {
+  margin: 0 auto;
   width: 696px;
   /* display: flex; */
 
@@ -193,7 +192,7 @@ a {
 /* About-us */
 .about-us-list {
   display: flex;
-  padding-top: 94px;
+  /* padding-top: 94px; */
 }
 .about-us-list .item {
   margin-right: 30px;
@@ -229,6 +228,7 @@ a {
 /* What-are-we-doing */
 .what-are-we-doing-section {
   padding-top: 0px;
+  padding-bottom: 94px;
 }
 .about-images-list {
   display: inline-block;
@@ -261,10 +261,10 @@ a {
 .team-section {
   background-color: var(--background-color);
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team-list {
-  padding-bottom: 94px;
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
@@ -280,7 +280,7 @@ a {
 
 .section-title {
   /* width: 264px; */
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   margin-left: 453px;
   margin-right: 453px;
 
@@ -324,11 +324,13 @@ a {
 
 .footer {
   background-color: var(--back-color);
+  padding-top: 60px;
+  padding-bottom: 20px;
 }
 .logo-footer {
   display: inline-block;
-  padding-top: 60px;
-  padding-bottom: 20px;
+  /* padding-top: 60px;
+  padding-bottom: 20px; */
 }
 .logo-web-footer {
   color: var(--accent-color);

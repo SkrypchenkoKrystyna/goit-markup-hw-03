@@ -244,9 +244,11 @@ a {
 }
 .title {
   /* width: 376px; */
-  padding-bottom: 50px;
+  /* padding-bottom: 50px;
   margin-left: 396px;
-  margin-right: 396px;
+  margin-right: 396px; */
+  margin: 0 auto;
+  margin-bottom: 50px;
 
   font-size: 36px;
   line-height: 1.167;
@@ -279,10 +281,7 @@ a {
 }
 
 .section-title {
-  /* width: 264px; */
   margin-bottom: 50px;
-  margin-left: 453px;
-  margin-right: 453px;
 
   font-size: 36px;
   line-height: 1.167;
@@ -329,12 +328,19 @@ a {
 }
 .logo-footer {
   display: inline-block;
-  /* padding-top: 60px;
-  padding-bottom: 20px; */
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.logo-footer-portfolio {
+  display: inline-block;
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
 .logo-web-footer {
   color: var(--accent-color);
 }
+
 .logo-studio-footer {
   color: var(--white-color);
 }
@@ -350,17 +356,17 @@ a {
   color: var(--main-text-color);
 }
 .adress-nav {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
   color: var(--white-color);
 }
 .contact-link-footer {
   display: inline-block;
-  padding-bottom: 9px;
+  margin-bottom: 9px;
   color: rgba(255, 255, 255, 0.6);
 }
 .contact-link-footer-tel {
   display: inline-block;
-  padding-bottom: 60px;
+  margin-bottom: 60px;
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -376,12 +382,24 @@ a {
   display: flex;
 } */
 
+.button-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .button-position {
   display: flex;
   justify-content: center;
+  margin-bottom: 34px;
 }
-.button-list-first {
+
+.button-position li:not(:last-child) {
   margin-right: 8px;
+}
+
+.button-list-first {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 6px 24px;
 
   font-weight: 500;
   font-size: 16px;
@@ -392,6 +410,11 @@ a {
 }
 
 .button-list {
+  padding: 6px 24px;
+  background-color: var(--background-color);
+  border-radius: 4px;
+  border: 1px solid transparent;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
@@ -413,6 +436,30 @@ a {
 /* Button-list */
 
 /* Card-list */
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -30px;
+  margin-bottom: -30px;
+}
+
+/* Это-не-применяется(((что-то-перебивает  */
+/* .card-item {
+  border: 1px solid #eeeeee;
+} */
+
+/* НЕ-МОГУ-это-раскомитить(то-что-внизу) */
+
+/* /* /* }  */
+
+.card-list > .card-item {
+  flex-basis: calc(100% / 3 - 30px);
+  background-color: var(--white-color);
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
 .card-title {
   font-size: 18px;
   line-height: 2;

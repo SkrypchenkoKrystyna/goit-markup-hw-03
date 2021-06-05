@@ -112,9 +112,6 @@ a {
   padding-bottom: 32px;
 }
 
-/* .link-active {
-  color: var(--accent-color);
-} */
 .contact-link {
   font-family: var(--main-font);
   font-weight: 500;
@@ -195,8 +192,8 @@ a {
 /* About-us */
 .about-us-list {
   display: flex;
-  /* padding-top: 94px; */
 }
+
 .about-us-list .item {
   margin-right: 30px;
 }
@@ -246,10 +243,6 @@ a {
   margin-right: 30px;
 }
 .title {
-  /* width: 376px; */
-  /* padding-bottom: 50px;
-  margin-left: 396px;
-  margin-right: 396px; */
   margin: 0 auto;
   margin-bottom: 50px;
 
@@ -325,8 +318,6 @@ a {
 .footer {
   background-color: var(--back-color);
   height: 252px;
-  /* padding-top: 60px;
-  padding-bottom: 20px; */
 }
 .logo-footer {
   display: inline-block;
@@ -476,8 +467,6 @@ a {
 }
 
 .card-title {
-  width: 322px;
-  /* margin-left: 24px; */
   margin-bottom: 4px;
 
   font-size: 18px;
@@ -486,10 +475,6 @@ a {
   color: var(--main-text-color);
 }
 .explanation-about {
-  width: 322px;
-  /* margin-left: 24px;
-  margin-bottom: 20px; */
-
   font-weight: 400;
   font-size: 16px;
   line-height: 1.875;

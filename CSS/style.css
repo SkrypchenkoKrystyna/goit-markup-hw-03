@@ -46,7 +46,7 @@ a {
 .header {
   color: var(--main-text-color);
 }
-.conteiner {
+.container {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
@@ -95,14 +95,6 @@ a {
   font-weight: 500;
 }
 .active-link {
-  padding-top: 42px;
-  padding-bottom: 39px;
-  display: block;
-
-  font-family: var(--main-font);
-  font-weight: 500;
-  line-height: 1.143px;
-  letter-spacing: 0.02em;
   color: var(--accent-color);
 }
 
@@ -154,7 +146,6 @@ a {
 .hero-title {
   margin: 0 auto;
   width: 696px;
-  /* display: flex; */
 
   margin-bottom: 30px;
   font-weight: 900;
@@ -442,11 +433,6 @@ a {
   margin-right: -30px;
   margin-bottom: -30px;
 }
-
-/* Это-не-применяется(((что-то-перебивает  */
-/* .card-item {
-  border: 1px solid #eeeeee;
-} */
 
 /* НЕ-МОГУ-это-раскомитить(то-что-внизу) */
 
